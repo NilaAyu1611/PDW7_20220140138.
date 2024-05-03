@@ -1,0 +1,143 @@
+/* Navbar */
+.navbar {
+    background-color: #454b51; /* Warna background gelap */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Menempatkan navbar di atas konten lain */
+    display: flex;
+    justify-content: center; /* Menengahkan navbar */
+    align-items: center; /* Menengahkan navbar secara vertikal */
+}
+
+.navbar-brand,
+.navbar-nav .nav-link {
+    color: #b04c09 !important; /* Warna tulisan terang */
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.navbar-brand:hover,
+.navbar-nav .nav-link:hover {
+    color: #40761a !important; /* Warna tulisan saat hover */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+/* Navbar button */
+.navbar-toggler {
+    z-index: 1001; /* Tetapkan tombol navbar di atas navbar */
+}
+
+
+/* Home Section */
+#home {
+    background-color: #28323e; /* Warna background gelap */
+    color: #7dc55b; /* Warna tulisan terang */
+    padding: 100px 0;
+}
+
+#home h1 {
+    color: pink;
+    font-family:Chiller;
+    font-size: 98px;
+}
+
+#home p {
+    color: rgb(237, 211, 15);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+
+}
+.carousel-caption {
+    text-align: center; /* Posisi teks ke tengah */
+    padding: 20px; /* Ruang di sekitar teks */
+}
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.7); /* Warna background dengan transparansi */
+    padding: 20px; /* Ruang di sekitar teks */
+    color: #fff; /* Warna teks putih */
+}
+
+
+
+
+
+
+/* About Us Section */
+#aboutus {
+    background-color: #343a40; /* Warna background gelap */
+    color: #31ec0c; /* Warna tulisan terang */
+    padding: 100px 0;
+}
+
+#aboutus h2 {
+    color: pink;
+    font-family:Chiller;
+    font-size: 50px;
+}
+#aboutus p {
+    color: rgb(230, 176, 29);
+    font-family: Matura MT Script Capitals;
+} 
+
+
+/* Courses Section */
+#courses {
+    background-color: #343a40; /* Warna background gelap */
+    color: #c3e11b; /* Warna tulisan terang */
+    padding: 100px 0;
+}
+
+#courses h1 {
+    color: pink;
+    font-family:Chiller;
+}
+
+#courses p {
+    color: rgb(234, 193, 8);
+    font-family: Matura MT Script Capitals;
+}
+
+/* Choose Section */
+#choose {
+    background-color: #343a40; /* Warna background gelap */
+    color: #f8f9fa; /* Warna tulisan terang */
+    padding: 100px 0;
+}
+
+#choose h2 {
+    color: pink;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+
+#choose p {
+    color: rgb(235, 255, 58);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 25px;
+}
+
+
+/* Footer */
+#footer h3 {
+    font-size: 1.5rem; /* Ukuran font judul */
+    color: #f2fff2; /* Warna teks judul */
+}
+
+#footer p {
+    font-size: 1rem; /* Ukuran font teks */
+    color: #20a0dc; /* Warna teks */
+    font-family:'Times New Roman', Times, serif;
+}
+
+#footer b {
+    font-family: 'Times New Roman', Times, serif;
+    color: aqua;
+}
+#footer .row {
+    padding: 20px 0; /* Ruang atas dan bawah */
+}
+
+#footer .col-md-6 {
+    margin-bottom: 20px; /* Ruang bawah antar kolom */
+}
